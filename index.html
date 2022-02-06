@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsafty Store</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" >
+</head>
+<body>
+    <!-- start setting box -->
+    <div class="setting-box">
+        <div class="toggle-setting">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#decf47" data-filter="invert(100%) sepia(39%) saturate(3463%) hue-rotate(341deg) brightness(94%) contrast(90%)"></li>
+                    <li data-color="#f44336" data-filter="invert(68%) sepia(71%) saturate(6486%) hue-rotate(334deg) brightness(90%) contrast(113%)"></li>
+                    <li data-color="#e91e63" data-filter="invert(17%) sepia(100%) saturate(3334%) hue-rotate(329deg) brightness(96%) contrast(91%)"></li>
+                    <li data-color="#9c27b0" data-filter="invert(25%) sepia(36%) saturate(5011%) hue-rotate(277deg) brightness(84%) contrast(97%)"></li>
+                    <li data-color="#673ab7" data-filter="invert(28%) sepia(70%) saturate(1511%) hue-rotate(239deg) brightness(84%) contrast(100%)"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <div class="random-backgrounds">
+                    <h4>Random Backgrounds</h4>
+                    <span class="yes active">Yes</span>
+                    <span class="no">No</span>
+                    <div class="imgs-box">
+                        <img src="imgs/01.jpg" alt="">
+                        <img src="imgs/02.jpg" alt="">
+                        <img src="imgs/03.jpg" alt="">
+                        <img src="imgs/04.jpg" alt="">
+                        <img src="imgs/05.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="option-box">
+                <div class="pullets-option">
+                    <h4>Show Pullets</h4>
+                    <span class="yes active">Yes</span>
+                    <span class="no" >No</span>
+                </div>
+            </div>
+            <button class="reset-options">
+                Reset Option
+            </button>
+        </div>
+    </div>
+    <!-- end setting box -->
+    <!-- start nav pullets -->
+    <div class="nav-pullets">
+        <div class="pullet" data-section=".about-us">
+            <div class="tooltip">About-us</div>
+        </div>
+        <div class="pullet" data-section=".skills">
+            <div class="tooltip">Our-Skills</div>
+        </div>
+        <div class="pullet" data-section=".gallary">
+            <div class="tooltip">Our-Gallery</div>
+        </div>
+        <div class="pullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="pullet" data-section=".features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="pullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        <div class="pullet" data-section=".contact">
+            <div class="tooltip">Contact</div>
+        </div>
+        
+    </div>
+    <!-- end nav pullets -->
+    <!-- start landing -->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="container">
+            <header class="header">
+                <div class="logo">Elsafty Store</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="" data-section=".about-us">About</a></li>
+                        <li><a href="" data-section=".skills">Skills</a></li>
+                        <li><a href="" data-section=".gallary">Gallary</a></li>
+                        <li><a href="" data-section=".timeline">Timeline</a></li>
+                        <li><a href="" data-section=".features">Features</a></li>
+                        <li><a href="" data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="" data-section=".contact">Contact</a></li>
+                    </ul>
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="introduction">
+            <h1>We Are <Span>Creative</Span> Agency</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quas architecto porro deserunt sapiente, ratione id earum error! Possimus saepe laboriosam quasi sapiente qui inventore. Ipsam, est! Quae, culpa sunt.</p>
+        </div>
+    </div>
+    <!-- end landing -->
+    <!-- start About US -->
+    <div class="container">
+            <div class="about-us">
+                <div class="info-box">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, ex libero? Est tenetur commodi distinctio
+                        sed impedit autem cumque perferendis nemo, aut illum voluptates similique fuga doloribus atque at quidem.
+                    </p>
+                </div>
+                <div class="image-box">
+                    <img src="imgs/about.png" alt="">
+                </div>
+            </div>
+    </div>
+    <!-- End About US -->
+    <!-- Start our skills -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="80%" data-content="0"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="70%" data-content="0"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Java Script</div>
+                <div class="skill-progress">
+                    <span data-progress="90%" data-content="0"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Python</div>
+                <div class="skill-progress">
+                    <span data-progress="80%" data-content="0"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">PHP</div>
+                <div class="skill-progress">
+                    <span data-progress="90%" data-content="0"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">MY SQL</div>
+                <div class="skill-progress">
+                    <span data-progress="70%" data-content="0"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start gallary -->
+    <div class="gallary">
+        <div class="container">
+            <h2>Our Gallary</h2>
+            <div class="imges-box">
+                <img src="imgs/product.jpg" alt="image one">
+                <img src="imgs/product1.jpg" alt="image Two">
+                <img src="imgs/product2.jpg" alt="image three">
+                <img src="imgs/product3.jpg" alt="image four">
+                <img src="imgs/product4.jpg" alt="image five">
+                <img src="imgs/product5.jpg" alt="">
+                <img src="imgs/product6.jpg" alt="">
+                <img src="imgs/product7.jpg" alt="">
+                <img src="imgs/product8.jpg" alt="">
+                <img src="imgs/product9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end gallary -->
+    <!-- start timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque ipsa magnam id cupiditate beatae facere minus
+                            molestias illo accusantium labore impedit voluptates aliquam atque quo numquam quaerat, veniam ipsam.
+                            Corpori!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque ipsa magnam id cupiditate beatae facere minus
+                            molestias illo accusantium labore impedit voluptates aliquam atque quo numquam quaerat, veniam ipsam.
+                            Corporis!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2016</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque ipsa magnam id cupiditate beatae facere minus
+                            molestias illo accusantium labore impedit voluptates aliquam atque quo numquam quaerat, veniam ipsam.
+                            Corporis!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque ipsa magnam id cupiditate beatae facere minus
+                            molestias illo accusantium labore impedit voluptates aliquam atque quo numquam quaerat, veniam ipsam.
+                            Corporis!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start features -->
+        <div class="features">
+            <h2>Our Features</h2>
+            <div class="container">
+            <div class="feat-box">
+                <img src="imgs/feat1.png" alt="">
+                <h4>electricity</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque, dicta voluptas commodi perspiciatis, eveniet
+                    , aut aliquid reiciendis aspernatur ut harum magnam possimus ducimus ea. Consequatur animi dolor ut quia.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/feat2.png" alt="">
+                <h4>electricity</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque, dicta voluptas commodi perspiciatis, eveniet
+                    , aut aliquid reiciendis aspernatur ut harum magnam possimus ducimus ea. Consequatur animi dolor ut quia.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/feat3.png" alt="">
+                <h4>electricity</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque, dicta voluptas commodi perspiciatis, eveniet
+                    , aut aliquid reiciendis aspernatur ut harum magnam possimus ducimus ea. Consequatur animi dolor ut quia.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/feat4.png" alt="">
+                <h4>electricity</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque, dicta voluptas commodi perspiciatis, eveniet
+                    , aut aliquid reiciendis aspernatur ut harum magnam possimus ducimus ea. Consequatur animi dolor ut quia.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/feat5.png" alt="">
+                <h4>electricity</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque, dicta voluptas commodi perspiciatis, eveniet
+                    , aut aliquid reiciendis aspernatur ut harum magnam possimus ducimus ea. Consequatur animi dolor ut quia.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/feat6.png" alt="">
+                <h4>electricity</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque, dicta voluptas commodi perspiciatis, eveniet
+                    , aut aliquid reiciendis aspernatur ut harum magnam possimus ducimus ea. Consequatur animi dolor ut quia.</p>
+            </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    <!-- end features -->
+    <!-- start Testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="ts-box">
+                <p>i am very sutisfied for the quality of the product and i proud of it</p>
+                <div class="personal-info">
+                    <img src="http:\\placehold.it\80\#ddd" alt="">
+                    <h4>mostafa Elsafty</h4>
+                    <p>sales manger of the company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>i am very sutisfied for the quality of the product and i proud of it</p>
+                <div class="personal-info">
+                    <img src="http:\\placehold.it\80\#ccc" alt="">
+                    <h4>mostafa Elsafty</h4>
+                    <p>sales manger of the company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>i am very sutisfied for the quality of the product and i proud of it</p>
+                <div class="personal-info">
+                    <img src="http:\\placehold.it\80\#aaa" alt="">
+                    <h4>mostafa Elsafty</h4>
+                    <p>sales manger of the company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- end Testimoniles -->
+    <!-- start contact -->
+    <div class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="name">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Contact">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <footer>
+        Copyright &copy; Mostafa Elsafty 2022
+    </footer>
+    <!-- end footer -->
+    <script src="js/master.js"></script>
+</body>
+</html>
